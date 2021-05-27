@@ -13,7 +13,7 @@
   <link href="assets/frameworks/fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="style/style.css">
-  <title>Landing Page</title>
+  <title>Collection</title>
 </head>
 
 <body>
@@ -30,11 +30,11 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mx-auto">
-          <li class="nav-item active">
-            <a class="nav-link text-center" href="index.html">Home</a>
-          </li>
           <li class="nav-item">
-            <a class="nav-link" href="#collection">Collection</a>
+            <a class="nav-link text-center" href="#">Home</a>
+          </li>
+          <li class="nav-item active" style="width: 80px;">
+            <a class="nav-link" href="#collection" style="width: 85px;">Collection</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">About</a>
@@ -56,186 +56,54 @@
   </nav>
   <!-- End of Navbar -->
 
-  <!-- Carousel -->
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-        aria-label="Slide 3"></button>
-    </div>
-    <div class="container">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="row pt-5">
-            <div class="carousel-desc col-12 col-sm-4 col-md-6 col-lg-6">
-              <h1 class="text-center text-lg-start">Lorem ipsum dolor <br> sir amet</h1>
-              <p class="text-center text-lg-start p-3 p-lg-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi
-                voluptates quae,
-                deserunt quod magni iste nemo sequi amet est molestiae consequuntur. Incidunt officia accusamus quis
-                consequuntur eligendi aliquam voluptate dolorem.</p>
-              <div class="text-center text-lg-start">
-                <a href="" class="btn btn-primary">See More</a>
-              </div>
-            </div>
-            <div
-              class="carousel-img col-6 col-sm-8 col-md-6 col-lg-6 d-none d-sm-block text-center justify-content-center">
-              <img src="assets/slider/1.jpg" height="350px" alt="">
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row pt-5">
-            <div class="carousel-desc col-12 col-sm-4 col-md-6 col-lg-6">
-              <h1 class="text-center text-lg-start">Lorem ipsum dolor <br> sir amet</h1>
-              <p class="text-center text-lg-start p-3 p-lg-0">Felis imperdiet proin fermentum leo vel orci porta non. Tortor id
-                aliquet lectus proin nibh nisl. Aliquam etiam erat velit scelerisque in dictum.
-                Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor purus. </p>
-              <div class="text-center text-lg-start">
-                <a href="" class="btn btn-primary">See More</a>
-              </div>
-            </div>
-            <div
-              class="carousel-img col-6 col-sm-8 col-md-6 col-lg-6 d-none d-sm-block text-center justify-content-center">
-              <img src="assets/slider/2.jpg" height="350px" alt="">
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row pt-5">
-            <div class="carousel-desc col-12 col-sm-4 col-md-6 col-lg-6">
-              <h1 class="text-center text-lg-start">Lorem ipsum dolor <br> sir amet</h1>
-              <p class="text-center text-lg-start p-3 p-lg-0">Faucibus a pellentesque sit amet porttitor eget dolor. Pellentesque elit eget
-                gravida cum sociis natoque penatibus.
-                Ultrices mi tempus imperdiet nulla malesuada pellentesque elit.</p>
-              <div class="text-center text-lg-start">
-                <a href="" class="btn btn-primary">See More</a>
-              </div>
-            </div>
-            <div
-              class="carousel-img col-6 col-sm-8 col-md-6 col-lg-6 d-none d-sm-block text-center justify-content-center">
-              <img src="assets/slider/3.jpg" height="350px" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-      data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-      data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+  <!-- Breadcrumb -->
+  <div class="container mt-5">
+    <nav>
+      <ol class="breadcrumb bg-transparent pl-0 mb-5">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Collection</li>
+      </ol>
+    </nav>
   </div>
-  <!-- End of Carousel -->
+  <!-- End of Breadcrumb -->
 
-  <!-- Collection -->
-  <section id="collection" class="collection-list">
-    <div class="container">
-      <h1 class="text-white">-</h1 class="text-white">
-      <div class="row p-5 text-center justify-content-between">
-        <div class="col-md mb-3 mb-lg-0">
-          <a href="collection-page.html">
-            <img width="170px" src="assets/icons/Collection A.png" alt="">
-          </a>
-        </div>
-        <div class="col-md mb-3 mb-lg-0">
-          <img width="170px" src="assets/icons/Collection A.png" alt="">
-        </div>
-        <div class="col-md mb-3 mb-lg-0">
-          <img width="170px" src="assets/icons/Collection A.png" alt="">
-        </div>
-        <div class="col-md mb-3 mb-lg-0">
-          <img width="170px" src="assets/icons/Collection A.png" alt="">
-        </div>
-        <div class="col-md mb-3 mb-lg-0">
-          <img width="170px" src="assets/icons/Collection A.png" alt="">
-        </div>
-      </div>
-    </div>
-  </section>c
-  <!-- End of Collection -->
-
-  <!-- Best-selling Item -->
-  <section class="features bg-light p-5">
+  <!-- Store profile -->
+  <section class="store-profile">
     <div class="container">
       <div class="row">
-        <div class="col">
-          <h4>Best-Selling Products</h4>
+        <div class="col-2">
+          <img src="assets/icons/user-colored.png" width="150px" alt="">
+        </div>
+        <div class="col-4">
+          <h1>UMKM A</h1>
           <p>Lorem ipsum dolor sit amet.</p>
+          <div class="text-center text-lg-start">
+            <a href="" class="btn btn-primary">Chat Seller</a>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <a href="product-detail-page.html">
-            <figure class="figure">
-              <img src="assets/product/1.jpg" width="200px" class="figure-img img-fluid" alt="...">
-              <figcaption class="figure-caption text-center">
-                <h5>Product item</h5>
-                <p>USD 9.99</p>
-              </figcaption>
-            </figure>
-          </a>
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <figure class="figure">
-            <img src="assets/product/2.jpg" width="200px" class="figure-img img-fluid" alt="...">
-            <figcaption class="figure-caption text-center">
-              <h5>Product item</h5>
-              <p>USD 9.99</p>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <figure class="figure">
-            <img src="assets/product/3.jpg" width="200px" class="figure-img img-fluid" alt="...">
-            <figcaption class="figure-caption text-center">
-              <h5>Product item</h5>
-              <p>USD 9.99</p>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <figure class="figure">
-            <img src="assets/product/4.jpg" width="200px" class="figure-img img-fluid" alt="...">
-            <figcaption class="figure-caption text-center">
-              <h5>Product item</h5>
-              <p>USD 9.99</p>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <figure class="figure">
-            <img src="assets/product/1.jpg" width="200px" class="figure-img img-fluid" alt="...">
-            <figcaption class="figure-caption text-center">
-              <h5>Product item</h5>
-              <p>USD 9.99</p>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <figure class="figure">
-            <img src="assets/product/2.jpg" width="200px" class="figure-img img-fluid" alt="...">
-            <figcaption class="figure-caption text-center">
-              <h5>Product item</h5>
-              <p>USD 9.99</p>
-            </figcaption>
-          </figure>
+        <div class="col-6 d-flex justify-content-end">
+          <div class="store-contact">
+            <div class="store-telephone mb-3">
+              <img src="assets/icons/phone.png" width="20px" alt="">
+              <a class="text-decoration-none text-dark" href="">0888-8888-8888</a>
+            </div>
+            <div class="store-email mb-3">
+              <img src="assets/icons/envelope.png" width="20px" alt="">
+              <a class="text-decoration-none text-dark" href="">user.@gmail.com</a>
+            </div>
+            <div class="store-instagram">
+              <img src="assets/icons/instagram.png" width="20px" alt="">
+              <a class="text-decoration-none text-dark" href="">@username</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
-  <!-- End of Best-selling Item -->
+  <!-- End of Store profile -->
 
   <!-- Featured Item -->
-  <section class="features p-5">
+  <section class="features p-5 mt-5">
     <div class="container">
       <div class="row">
         <div class="col">

@@ -23,7 +23,7 @@ body {
 .nav-item.active a {
   width: 80px;
   color: #fff !important;
-  background-color: #415DEF;
+  background-color: #3252DF;
   border-radius: 2px;
 }
 
@@ -94,9 +94,28 @@ body {
 }
 /* End of Carousel */
 
+/* breadcrumb */
+.breadcrumb li a {
+  color: #3252DF;
+  text-decoration: none;
+}
+
+.breadcrumb li a:hover {
+  text-decoration: underline;
+}
+
+/* End of breadcrumb */
+
+/* store-profile */
+.store-profile h1 {
+  color: #1B2690;
+  font-family: 'Poppins', Helvetica, serif;
+}
+/* End of store-profile */
+
 /* Features */
 .features h4 {
-  font-family: 'Poppins';
+  font-family: 'Poppins', Helvetica, serif;
   color: #1B2690;
 }
 
@@ -144,7 +163,7 @@ body {
 
 /* Similiar Product */
 .similiar-product h4 {
-  font-family: 'Poppins';
+  font-family: 'Poppins', Helvetica, serif;
   color: #1B2690;
 }
 

@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  
+  <link href="assets/frameworks/fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Product Detail</title>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top pt-3">
+    <div class="container">
+      <div class="icon-logo">
+        <a href="index.html">
+          <img class="logo" src="assets/icons/logo-umkm.png" alt="">
+        </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i title="" class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-center" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#collection">Collection</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+        <div class="icon-menu">
+          <a style="text-decoration: none;" href="#">
+            <img class="icon-fav ml-0 ml-lg-1" src="assets/icons/favorite.png" alt="">
+          </a>
+          <a style="text-decoration: none;" href="#">
+            <img class="icon-cart" src="assets/icons/search.png" alt="">
+          </a>
+          <a style="text-decoration: none;" href="checkout-page.html">
+            <img class="icon-cart" src="assets/icons/shopping-cart.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- End of Navbar -->
+
+  <!-- Breadcrumb -->
+  <div class="container mt-5">
+    <nav>
+      <ol class="breadcrumb bg-transparent pl-0 mb-5">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Collection</li>
+      </ol>
+    </nav>
+  </div>
+  <!-- End of Breadcrumb -->
+
+  <!-- Single Product -->
+  <section class="single-product">
+    <div class="container">
+      <div class="row">
+        <div class="col-9 col-lg-4">
+          <figure class="figure">
+            <img src="assets/product/1.jpg" class="figure-img img-fluid" alt="...">
+            <figcaption class="figure-caption">A caption for the above image.</figcaption>
+          </figure>
+        </div>
+        <div class="col-6 col-lg-4">
+          <h4>Product Item</h4>
+          <p class="text-muted">USD 99.00</p>
+          <button type="button" class="btn btn-sm" style="background-color: #EAEAEF; color: white">
+            <i class="fas fa-minus-circle"></i>
+          </button>
+          <span class="mx-2">2</span>
+          <button type="button" class="btn btn-sm btn-success">
+            <i class="fas fa-plus-circle"></i>
+          </button>
+          <div class="button-product mt-4">
+            <a href="" class="btn btn-warning d-block text-white">Add to Cart</a>
+            <a href="" class="btn d-block mt-3" style="background-color: #EAEAEF; color: white">Add to Wishlist</a>
+          </div>
+          <div class="store">
+            <h6>Product by</h6>
+            <div class="row">
+              <div class="col-3 col-lg-2">
+                <img src="assets/icons/user.png" width="45px" alt="">
+              </div>
+              <div class="col">
+                <h5 class="mb-0">Store A</h5>
+                <p>Kota Bogor</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Single Product -->
+
+  <!-- Product Description -->
+  <!-- <section class="product-description bg-light p-5">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active bg-transparent" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+              <p>Description</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link bg-transparent" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">
+              <p>Review</p>
+            </a>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active text-dark pl-0 pt-3 pr-3 text-justify" id="home" role="tabpanel" aria-labelledby="home-tab">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Magna eget est lorem ipsum dolor sit amet consectetur. Nam aliquam sem et tortor consequat. 
+              Fames ac turpis egestas maecenas pharetra convallis posuere morbi. Urna neque viverra justo nec ultrices dui sapien eget mi. 
+              Pharetra pharetra massa massa ultricies. Elementum facilisis leo vel fringilla est. Suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Tincidunt lobortis feugiat vivamus at augue. 
+              Purus sit amet volutpat consequat mauris nunc congue. Integer enim neque volutpat ac tincidunt vitae semper quis lectus. 
+              Pellentesque pulvinar pellentesque habitant morbi tristique senectus.</p> 
+            <p>Quisque id diam vel quam. Dolor magna eget est lorem ipsum. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet. 
+              Turpis in eu mi bibendum. Integer vitae justo eget magna fermentum iaculis eu non. 
+              Orci dapibus ultrices in iaculis nunc sed augue lacus viverra. Porttitor massa id neque aliquam. 
+              Elementum eu facilisis sed odio. A condimentum vitae sapien pellentesque. Vulputate odio ut enim blandit. 
+              In nulla posuere sollicitudin aliquam ultrices.</p> 
+          </div>
+          <div class="tab-pane product-review fade text-white pl-0 pt-3 pr-3 text-justify" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <div class="row">
+              <div class="col-1 pl-5 d-none d-lg-block">
+                <img src="assets/profiles/user.png" width="40px" alt="">
+              </div>
+              <div class="col">
+                <h5>Customer A</h5>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1 pl-5 d-none d-lg-block">
+                <img src="assets/profiles/user.png" width="40px" alt="">
+              </div>
+              <div class="col">
+                <h5>Customer B</h5>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1 pl-5 d-none d-lg-block">
+                <img src="assets/profiles/user.png" width="40px" alt="">
+              </div>
+              <div class="col">
+                <h5>Customer C</h5>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1 pl-5 d-none d-lg-block">
+                <img src="assets/profiles/user.png" width="40px" alt="">
+              </div>
+              <div class="col">
+                <h5>Customer D</h5>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- End of Product Description -->
+
+  <div class="container">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          Magna eget est lorem ipsum dolor sit amet consectetur. Nam aliquam sem et tortor consequat. 
+          Fames ac turpis egestas maecenas pharetra convallis posuere morbi. Urna neque viverra justo nec ultrices dui sapien eget mi. 
+          Pharetra pharetra massa massa ultricies. Elementum facilisis leo vel fringilla est. Suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Tincidunt lobortis feugiat vivamus at augue. 
+          Purus sit amet volutpat consequat mauris nunc congue. Integer enim neque volutpat ac tincidunt vitae semper quis lectus. 
+          Pellentesque pulvinar pellentesque habitant morbi tristique senectus.</p> 
+        <p>Quisque id diam vel quam. Dolor magna eget est lorem ipsum. Facilisi morbi tempus iaculis urna id volutpat lacus laoreet. 
+          Turpis in eu mi bibendum. Integer vitae justo eget magna fermentum iaculis eu non. 
+          Orci dapibus ultrices in iaculis nunc sed augue lacus viverra. Porttitor massa id neque aliquam. 
+          Elementum eu facilisis sed odio. A condimentum vitae sapien pellentesque. Vulputate odio ut enim blandit. 
+          In nulla posuere sollicitudin aliquam ultrices.</p> 
+      </div>
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+        <div class="row">
+          <div class="col-1 pl-5 d-none d-lg-block">
+            <img src="assets/icons/user.png" width="40px" alt="">
+          </div>
+          <div class="col">
+            <h5>Customer A</h5>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1 pl-5 d-none d-lg-block">
+            <img src="assets/icons/user.png" width="40px" alt="">
+          </div>
+          <div class="col">
+            <h5>Customer B</h5>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1 pl-5 d-none d-lg-block">
+            <img src="assets/icons/user.png" width="40px" alt="">
+          </div>
+          <div class="col">
+            <h5>Customer C</h5>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1 pl-5 d-none d-lg-block">
+            <img src="assets/icons/user.png" width="40px" alt="">
+          </div>
+          <div class="col">
+            <h5>Customer D</h5>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Similiar Product -->
+  <section class="similiar-product">
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col">
+          <h4>Similiar Products</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <figure class="figure">
+            <img src="assets/product/similiar-product1.png" class="figure-img img-fluid" alt="...">
+            <figcaption class="figure-caption">
+              <div class="row">
+                <div class="col">
+                  <h5>Product item</h5>
+                  <p>Lorem ipsum dolor sit</p>
+                </div>
+                <div class="col text-right">
+                  <p>USD 99.00</p>
+                </div>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-sm-4">
+          <figure class="figure">
+            <img src="assets/product/similiar-product2.png" class="figure-img img-fluid" alt="...">
+            <figcaption class="figure-caption">
+              <div class="row">
+                <div class="col">
+                  <h5>Product item</h5>
+                  <p>Lorem ipsum dolor sit</p>
+                </div>
+                <div class="col text-right">
+                  <p>USD 99.00</p>
+                </div>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-sm-4">
+          <figure class="figure">
+            <img src="assets/product/similiar-product3.png" class="figure-img img-fluid" alt="...">
+            <figcaption class="figure-caption">
+              <div class="row">
+                <div class="col">
+                  <h5>Product item</h5>
+                  <p>Lorem ipsum dolor sit</p>
+                </div>
+                <div class="col text-right">
+                  <p>USD 99.00</p>
+                </div>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Simmiliar Product -->
+
+  <!-- Footer -->
+  <footer class="border-top p-5">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-1">
+          <a href="">
+            <img src="assets/icons/logo-umkm.png" width="100px" alt="...">
+          </a>
+        </div>
+        <div class="col-8 footer-icon-menu text-end ">
+          <a style="text-decoration: none;" href="">
+            <img src="assets/icons/phone.png" width="25px" alt="...">
+          </a>
+          <a style="text-decoration: none;" href="">
+            <img src="assets/icons/envelope.png" width="25px" alt="...">
+          </a>
+          <a style="text-decoration: none;" href="">
+            <img src="assets/icons/link.png" width="25px" alt="...">
+          </a>
+        </div>
+      </div>
+      <div class="row justify-content-between">
+        <div class="col-5  pt-4">
+          <p class="">All Rights Reserved by UMKM Bogor Copyright 2021</p>
+        </div>
+        <div class="col-5 pt-4">
+          <nav class="nav justify-content-end">
+            <a class="nav-link py-0" href="#">About</a>
+            <a class="nav-link py-0" href="#">Developer</a>
+            <a class="nav-link py-0" href="#">Terms</a>
+            <a class="nav-link py-0 pr-0" href="#">Privacy Policy</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End of Footer -->
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+  </script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

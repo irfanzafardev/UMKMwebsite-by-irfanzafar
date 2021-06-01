@@ -74,29 +74,32 @@
         <div class="col-lg-6">
           <h4 class="mb-4">Your Items</h4>
           <div class="row mb-4">
-            <div class="col-2">
-              <img src="assets/product/1.jpg" width="50px" alt="">
+            <div class="col-6 col-lg-4">
+              <img src="assets/product/1.jpg" width="150px" alt="">
             </div>
-            <div class="col-4">
+            <div class="col-6 col-lg-8">
               <h6 class="m-0">Product item</h6>
               <p class="m-0 text-muted">USD 99.00</p>
-            </div>
-            <div class="col-4">
-              <button type="button" class="btn btn-sm" style="background-color: #EAEAEF; color: white">
-                <i class="fas fa-minus-circle"></i>
-              </button>
-              <span class="mx-2">2</span>
-              <button type="button" class="btn btn-sm btn-success">
-                <i class="fas fa-plus-circle"></i>
-              </button>
-            </div>
-            <div class="col-2 text-right">
-              <button type="button" class="btn btn-sm btn-danger">
-                <i class="fas fa-times-circle"></i>
-              </button>
+              <div class="row mt-4">
+                <h6 class="mb-3">Quantity</h6>
+                <div class="col-8 col-lg-6">
+                  <button type="button" class="btn btn-sm" style="background-color: #EAEAEF; color: white">
+                    <i class="fas fa-minus-circle"></i>
+                  </button>
+                  <span class="mx-2">2</span>
+                  <button type="button" class="btn btn-sm btn-success">
+                    <i class="fas fa-plus-circle"></i>
+                  </button>
+                </div>
+                <div class="col-4">
+                  <button type="button" class="btn btn-sm btn-danger">
+                    <i class="fas fa-times-circle"></i>
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="row mb-4">
+          <!-- <div class="row mb-4">
             <div class="col-2">
               <img src="assets/product/2.jpg" width="50px" alt="">
             </div>
@@ -141,7 +144,7 @@
                 <i class="fas fa-times-circle"></i>
               </button>
             </div>
-          </div>
+          </div> -->
           <h4>Your Adddress</h4>
           <p></p>
           <form>
@@ -163,7 +166,7 @@
             </div>
           </form>
         </div>
-        <div class="col-lg-4 justify-content-end">
+        <div class="col-lg-4 justify-content-end mt-4 mt-lg-0">
           <div class="card checkout-detail">
             <div class="card-body">
               <h5 class="card-title mb-4">Payment Detail</h5>
@@ -197,12 +200,12 @@
               </div>
             </div>
           </div>
-          <div class="row mt-4">
-            <div class="col">
+          <div class="checkout-button row mt-4">
+            <div class="col-6">
               <button type="button" class="btn btn-light btn-block">Cancel</button>
             </div>
-            <div class="col">
-              <button type="button" class="btn btn-warning btn-block">Checkout</button>
+            <div class="col-6 d-flex justify-content-end">
+              <button type="button" class="btn btn-primary btn-block">Checkout</button>
             </div>
           </div>
         </div>

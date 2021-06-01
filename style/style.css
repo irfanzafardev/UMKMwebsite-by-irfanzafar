@@ -111,6 +111,16 @@ body {
   color: #1B2690;
   font-family: 'Poppins', Helvetica, serif;
 }
+
+.store-profile .store-logo {
+  width: 150px;
+}
+
+@media (max-width: 767px) {
+  .store-profile .store-logo {
+    width: 100px;
+  }
+}
 /* End of store-profile */
 
 /* Features */
@@ -184,6 +194,10 @@ body {
   background-color: #fff;
   border: 1px solid #000;
   color: #171717;
+}
+
+.checkout-button .btn {
+  width: 160px;
 }
 /* End of Shopping Cart */
 

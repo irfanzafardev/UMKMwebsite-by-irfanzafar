@@ -9,7 +9,7 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-  
+
   <link href="assets/frameworks/fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="style/style.css">
@@ -17,15 +17,17 @@
 </head>
 
 <body>
+  <button id="back-to-top-btn"><i class="fas fa-chevron-up"></i></button>
   <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top pt-3">
     <div class="container">
       <div class="icon-logo">
         <a href="index.html">
-          <img class="logo" src="assets/icons/logo-umkm.png" alt="">
+          <img class="logo" src="assets/icons/logo.png" style="min-width: 140px;" alt="">
         </a>
       </div>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <i title="" class="fa fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -37,10 +39,28 @@
             <a class="nav-link" href="#collection">Collection</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about-us">About</a>
           </li>
         </ul>
-        <div class="icon-menu">
+        <div class="icon-bag-dropdown">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img class="icon-cart" src="assets/icons/shopping-bag.png" alt="">
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="collection-page-allanifashion.html"><p>Allani Fashion</p></a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="collection-page-c2r.html"><p>C2R Collection</p></a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="collection-page-kaosdagor.html"><p>Kaos Dagor</p></a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="collection-page-lamandaart.html"><p>Lamanda Art</p></a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="collection-page-marsyacraft .html"><p>Marsya Craft</p></a></li>
+            </ul>
+          </li>
+        </div>
+        <!-- <div class="icon-menu">
           <a style="text-decoration: none;" href="#">
             <img class="icon-fav ml-0 ml-lg-1" src="assets/icons/favorite.png" alt="">
           </a>
@@ -50,7 +70,7 @@
           <a style="text-decoration: none;" href="checkout-page.html">
             <img class="icon-cart" src="assets/icons/shopping-cart.png" alt="">
           </a>
-        </div>
+        </div> -->
       </div>
     </div>
   </nav>
@@ -65,58 +85,95 @@
         aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
         aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+        aria-label="Slide 5"></button>
     </div>
     <div class="container">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="row pt-5">
             <div class="carousel-desc col-12 col-sm-4 col-md-6 col-lg-6">
-              <h1 class="text-center text-lg-start">Lorem ipsum dolor <br> sir amet</h1>
-              <p class="text-center text-lg-start p-3 p-lg-0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi
-                voluptates quae,
-                deserunt quod magni iste nemo sequi amet est molestiae consequuntur. Incidunt officia accusamus quis
-                consequuntur eligendi aliquam voluptate dolorem.</p>
+              <h1 class="text-center text-lg-start">Cari aksesoris unik <br> terbaikmu</h1>
+              <p class="text-center text-lg-start p-3 p-lg-0">Dapatkan masker, bunga arkrilik, bunga stoking, bunga tulip dari kain perca, tempat tisyu dari kain panel, konektor masker, dan lain-lain.</p>
               <div class="text-center text-lg-start">
-                <a href="" class="btn btn-primary">See More</a>
+                <a href="" class="btn btn-primary">See Marsya Craft Collection</a>
               </div>
             </div>
             <div
               class="carousel-img col-6 col-sm-8 col-md-6 col-lg-6 d-none d-sm-block text-center justify-content-center">
-              <img src="assets/slider/1.jpg" height="350px" alt="">
+              <img src="assets/slider/marsya-art.jpeg" height="350px" alt="">
             </div>
           </div>
         </div>
         <div class="carousel-item">
           <div class="row pt-5">
             <div class="carousel-desc col-12 col-sm-4 col-md-6 col-lg-6">
-              <h1 class="text-center text-lg-start">Lorem ipsum dolor <br> sir amet</h1>
-              <p class="text-center text-lg-start p-3 p-lg-0">Felis imperdiet proin fermentum leo vel orci porta non. Tortor id
+              <h1 class="text-center text-lg-start">Hasil kerajinan tangan <br> untuk keseharianmu</h1>
+              <p class="text-center text-lg-start p-3 p-lg-0">Berbagai macam pilihan totebag, masker, tas printing hasil
+                lukisan tangan,
+                limited karena dibuat dalam jumlah sangat terbatas.</p>
+              <div class="text-center text-lg-start">
+                <a href="collection-page-c2r.html" class="btn btn-primary">See C2R Collection</a>
+              </div>
+            </div>
+            <div
+              class="carousel-img col-6 col-sm-8 col-md-6 col-lg-6 d-none d-sm-block text-center justify-content-center">
+              <img src="assets/slider/C2R.jpeg" height="350px" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row pt-5">
+            <div class="carousel-desc col-12 col-sm-4 col-md-6 col-lg-6">
+              <h1 class="text-center text-lg-start">Percaya diri dengan <br> aksesoris unik</h1>
+              <p class="text-center text-lg-start p-3 p-lg-0">Berbagai macam pilihan totebag, masker, tas printing hasil
+                lukisan tangan,
+                limited karena dibuat dalam jumlah sangat terbatas.</p>
+              <div class="text-center text-lg-start mb-5">
+                <a href="collection-page-allanifashion.html" class="btn btn-primary">See Allani Fashion Collection</a>
+              </div>
+            </div>
+            <div
+              class="carousel-img col-6 col-sm-8 col-md-6 col-lg-6 d-none d-sm-block text-center justify-content-center">
+              <img src="assets/slider/allani-fashion.jpeg" height="350px" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row pt-5">
+            <div class="carousel-desc col-12 col-sm-4 col-md-6 col-lg-6">
+              <h1 class="text-center text-lg-start">Bangga memakai outfit <br> khas Kota Bogor</h1>
+              <p class="text-center text-lg-start p-3 p-lg-0">Felis imperdiet proin fermentum leo vel orci porta non.
+                Tortor id
                 aliquet lectus proin nibh nisl. Aliquam etiam erat velit scelerisque in dictum.
                 Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor purus. </p>
               <div class="text-center text-lg-start">
-                <a href="" class="btn btn-primary">See More</a>
+                <a href="collection-page-kaosdagor.html" class="btn btn-primary">See Kaos Dagor Collection</a>
               </div>
             </div>
             <div
               class="carousel-img col-6 col-sm-8 col-md-6 col-lg-6 d-none d-sm-block text-center justify-content-center">
-              <img src="assets/slider/2.jpg" height="350px" alt="">
+              <img src="assets/slider/kaos-dagor.jpg" height="350px" alt="">
             </div>
           </div>
         </div>
         <div class="carousel-item">
           <div class="row pt-5">
             <div class="carousel-desc col-12 col-sm-4 col-md-6 col-lg-6">
-              <h1 class="text-center text-lg-start">Lorem ipsum dolor <br> sir amet</h1>
-              <p class="text-center text-lg-start p-3 p-lg-0">Faucibus a pellentesque sit amet porttitor eget dolor. Pellentesque elit eget
-                gravida cum sociis natoque penatibus.
-                Ultrices mi tempus imperdiet nulla malesuada pellentesque elit.</p>
+              <h1 class="text-center text-lg-start">Kerajinan tangan berkualitas <br> dari limbah daur ulang</h1>
+              <p class="text-center text-lg-start p-3 p-lg-0">Kami menjual berbagai macam kerajinan tangan daur ulang
+                dari limbah plastik, kain perca,
+                dan lain lain.
+              </p>
               <div class="text-center text-lg-start">
-                <a href="" class="btn btn-primary">See More</a>
+                <a href="collection-page-lamandaart.html" class="btn btn-primary">See Lamanda Art Collection</a>
               </div>
             </div>
             <div
               class="carousel-img col-6 col-sm-8 col-md-6 col-lg-6 d-none d-sm-block text-center justify-content-center">
-              <img src="assets/slider/3.jpg" height="350px" alt="">
+              <img src="assets/slider/lamanda-art.jpeg" height="350px" alt="">
             </div>
           </div>
         </div>
@@ -139,24 +196,32 @@
   <!-- Collection -->
   <section id="collection" class="collection-list">
     <div class="container">
-      <h1 class="text-white">-</h1 class="text-white">
-      <div class="row p-5 text-center justify-content-between">
+      <h1 class="text-white">-</h1>
+      <div class="collection-section row p-5 text-center justify-content-between">
         <div class="col-md mb-3 mb-lg-0">
-          <a href="collection-page.html">
-            <img width="170px" src="assets/icons/Collection A.png" alt="">
+          <a href="collection-page-allanifashion.html">
+            <img width="170px" src="assets/icons/logo-allani.jpeg" style="clip-path: circle();" height="170px" alt="">
           </a>
         </div>
         <div class="col-md mb-3 mb-lg-0">
-          <img width="170px" src="assets/icons/Collection A.png" alt="">
+          <a href="collection-page-c2r.html">
+            <img width="170px" src="assets/icons/logo-C2R.jpeg" style="clip-path: circle();" height="170px" alt="">
+          </a>
         </div>
         <div class="col-md mb-3 mb-lg-0">
-          <img width="170px" src="assets/icons/Collection A.png" alt="">
+          <a href="collection-page-kaosdagor.html">
+            <img width="170px" src="assets/icons/logo-dagor.jpg" style="clip-path: circle();" height="170px" alt="">
+          </a>
         </div>
         <div class="col-md mb-3 mb-lg-0">
-          <img width="170px" src="assets/icons/Collection A.png" alt="">
+          <a href="collection-page-lamandaart.html">
+            <img width="170px" src="assets/icons/logo-lamanda.png" style="clip-path: circle();" height="170px" alt="">
+          </a>
         </div>
         <div class="col-md mb-3 mb-lg-0">
-          <img width="170px" src="assets/icons/Collection A.png" alt="">
+          <a href="collection-page-marsyacraft .html">
+            <img width="170px" src="assets/icons/logo-marsya.PNG" style="clip-path: circle();" height="170px" alt="">
+          </a>
         </div>
       </div>
     </div>
@@ -169,63 +234,54 @@
       <div class="row">
         <div class="col">
           <h4>Best-Selling Products</h4>
-          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Produk terlaris</p>
         </div>
       </div>
-      <div class="row">
+      <div class="row d-flex justify-content-between">
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+          <figure class="figure">
+            <img src="assets/product/5.jpg" width="200px" class="figure-img img-fluid" alt="...">
+            <figcaption class="figure-caption text-center">
+              <h5>Product item</h5>
+              <p>IDR 9.99</p>
+            </figcaption>
+          </figure>
+        </div>
         <div class="col-6 col-sm-4 col-md-3 col-lg-2">
           <a href="single-product-page.html">
             <figure class="figure">
-              <img src="assets/product/1.jpg" width="200px" class="figure-img img-fluid" alt="...">
+              <img src="assets/product/UMKM-products/C2R Collection/all/6.jpeg" width="200px" class="figure-img img-fluid" alt="...">
               <figcaption class="figure-caption text-center">
-                <h5>Product item</h5>
-                <p>USD 9.99</p>
+                <h5>Totebag 'It's up to me'</h5>
+                <p>IDR 125.000</p>
               </figcaption>
             </figure>
           </a>
         </div>
         <div class="col-6 col-sm-4 col-md-3 col-lg-2">
           <figure class="figure">
-            <img src="assets/product/2.jpg" width="200px" class="figure-img img-fluid" alt="...">
+            <img src="assets/product/5.jpg" width="200px" class="figure-img img-fluid" alt="...">
             <figcaption class="figure-caption text-center">
               <h5>Product item</h5>
-              <p>USD 9.99</p>
+              <p>IDR 9.99</p>
             </figcaption>
           </figure>
         </div>
         <div class="col-6 col-sm-4 col-md-3 col-lg-2">
           <figure class="figure">
-            <img src="assets/product/3.jpg" width="200px" class="figure-img img-fluid" alt="...">
+            <img src="assets/product/best-selling/lamandaart.png" width="200px" class="figure-img img-fluid" alt="...">
             <figcaption class="figure-caption text-center">
-              <h5>Product item</h5>
-              <p>USD 9.99</p>
+              <h5>Dompet daur ulang mochaccino</h5>
+              <p>IDR 35.000</p>
             </figcaption>
           </figure>
         </div>
         <div class="col-6 col-sm-4 col-md-3 col-lg-2">
           <figure class="figure">
-            <img src="assets/product/4.jpg" width="200px" class="figure-img img-fluid" alt="...">
+            <img src="assets/product/5.jpg" width="200px" class="figure-img img-fluid" alt="...">
             <figcaption class="figure-caption text-center">
               <h5>Product item</h5>
-              <p>USD 9.99</p>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <figure class="figure">
-            <img src="assets/product/1.jpg" width="200px" class="figure-img img-fluid" alt="...">
-            <figcaption class="figure-caption text-center">
-              <h5>Product item</h5>
-              <p>USD 9.99</p>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <figure class="figure">
-            <img src="assets/product/2.jpg" width="200px" class="figure-img img-fluid" alt="...">
-            <figcaption class="figure-caption text-center">
-              <h5>Product item</h5>
-              <p>USD 9.99</p>
+              <p>IDR 9.99</p>
             </figcaption>
           </figure>
         </div>
@@ -240,115 +296,115 @@
       <div class="row">
         <div class="col">
           <h4>Featured Products</h4>
-          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Produk - produk yang disarankan</p>
         </div>
       </div>
       <div class="row">
         <div class="col-6 col-sm-4 col-md-3 col-lg-2">
           <figure class="figure">
-            <img src="assets/product/2.jpg" width="200px" class="figure-img img-fluid" alt="...">
+            <img src="assets/featured/1.jpeg" width="200px" class="figure-img img-fluid" alt="...">
             <figcaption class="figure-caption text-center">
-              <h5>Product item</h5>
-              <p>USD 9.99</p>
+              <h5>Long Outer Batik</h5>
+              <p>IDR 325.000</p>
             </figcaption>
           </figure>
         </div>
         <div class="col-6 col-sm-4 col-md-3 col-lg-2">
           <figure class="figure">
-            <img src="assets/product/1.jpg" width="200px" class="figure-img img-fluid" alt="...">
+            <img src="assets/featured/2.jpeg" width="200px" class="figure-img img-fluid" alt="...">
             <figcaption class="figure-caption text-center">
-              <h5>Product item</h5>
-              <p>USD 9.99</p>
+              <h5>Long Outer Batik</h5>
+              <p>IDR 325.000</p>
             </figcaption>
           </figure>
         </div>
         <div class="col-6 col-sm-4 col-md-3 col-lg-2">
           <figure class="figure">
-            <img src="assets/product/4.jpg" width="200px" class="figure-img img-fluid" alt="...">
+            <img src="assets/featured/3.jpeg" width="200px" class="figure-img img-fluid" alt="...">
             <figcaption class="figure-caption text-center">
-              <h5>Product item</h5>
-              <p>USD 9.99</p>
+              <h5>Masker 'amoeba'</h5>
+              <p>IDR 25.000</p>
             </figcaption>
           </figure>
         </div>
         <div class="col-6 col-sm-4 col-md-3 col-lg-2">
           <figure class="figure">
-            <img src="assets/product/3.jpg" width="200px" class="figure-img img-fluid" alt="...">
+            <img src="assets/featured/4.jpeg" width="200px" class="figure-img img-fluid" alt="...">
             <figcaption class="figure-caption text-center">
-              <h5>Product item</h5>
-              <p>USD 9.99</p>
+              <h5>Totebag 'It's up to me'</h5>
+              <p>IDR 125.000</p>
             </figcaption>
           </figure>
         </div>
         <div class="col-6 col-sm-4 col-md-3 col-lg-2">
           <figure class="figure">
-            <img src="assets/product/2.jpg" width="200px" class="figure-img img-fluid" alt="...">
+            <img src="assets/featured/5.jpg" width="200px" class="figure-img img-fluid" alt="...">
             <figcaption class="figure-caption text-center">
-              <h5>Product item</h5>
-              <p>USD 9.99</p>
+              <h5>Kaos Dagor</h5>
+              <p>IDR -.000</p>
             </figcaption>
           </figure>
         </div>
         <div class="col-6 col-sm-4 col-md-3 col-lg-2">
           <figure class="figure">
-            <img src="assets/product/1.jpg" width="200px" class="figure-img img-fluid" alt="...">
+            <img src="assets/featured/6.jpg" width="200px" class="figure-img img-fluid" alt="...">
             <figcaption class="figure-caption text-center">
-              <h5>Product item</h5>
-              <p>USD 9.99</p>
+              <h5>Kaos Dagor</h5>
+              <p>IDR -.000</p>
             </figcaption>
           </figure>
         </div>
         <div class="col-6 col-sm-4 col-md-3 col-lg-2">
           <figure class="figure">
-            <img src="assets/product/1.jpg" width="200px" class="figure-img img-fluid" alt="...">
+            <img src="assets/featured/7.jpeg" width="200px" class="figure-img img-fluid" alt="...">
             <figcaption class="figure-caption text-center">
-              <h5>Product item</h5>
-              <p>USD 9.99</p>
+              <h5>Keranjang Daur Ulang Kopi</h5>
+              <p>IDR 35.000</p>
             </figcaption>
           </figure>
         </div>
         <div class="col-6 col-sm-4 col-md-3 col-lg-2">
           <figure class="figure">
-            <img src="assets/product/2.jpg" width="200px" class="figure-img img-fluid" alt="...">
+            <img src="assets/featured/8.jpeg" width="200px" class="figure-img img-fluid" alt="...">
             <figcaption class="figure-caption text-center">
-              <h5>Product item</h5>
-              <p>USD 9.99</p>
+              <h5>Keranjang Daur Ulang Kopi Liong</h5>
+              <p>IDR 35.000</p>
             </figcaption>
           </figure>
         </div>
         <div class="col-6 col-sm-4 col-md-3 col-lg-2">
           <figure class="figure">
-            <img src="assets/product/4.jpg" width="200px" class="figure-img img-fluid" alt="...">
+            <img src="assets/featured/9.jpeg" width="200px" class="figure-img img-fluid" alt="...">
             <figcaption class="figure-caption text-center">
-              <h5>Product item</h5>
-              <p>USD 9.99</p>
+              <h5>Bunga anggrek arkrilik ungu</h5>
+              <p>IDR 50.000</p>
             </figcaption>
           </figure>
         </div>
         <div class="col-6 col-sm-4 col-md-3 col-lg-2">
           <figure class="figure">
-            <img src="assets/product/1.jpg" width="200px" class="figure-img img-fluid" alt="...">
+            <img src="assets/featured/10.jpeg" width="200px" class="figure-img img-fluid" alt="...">
             <figcaption class="figure-caption text-center">
-              <h5>Product item</h5>
-              <p>USD 9.99</p>
+              <h5>Bunga anggrek arkrilik violet</h5>
+              <p>IDR 50.000</p>
             </figcaption>
           </figure>
         </div>
         <div class="col-6 col-sm-4 col-md-3 col-lg-2">
           <figure class="figure">
-            <img src="assets/product/3.jpg" width="200px" class="figure-img img-fluid" alt="...">
+            <img src="assets/featured/11.jpeg" width="200px" class="figure-img img-fluid" alt="...">
             <figcaption class="figure-caption text-center">
-              <h5>Product item</h5>
-              <p>USD 9.99</p>
+              <h5>Masker Kain Dewasa</h5>
+              <p>IDR 10.000</p>
             </figcaption>
           </figure>
         </div>
         <div class="col-6 col-sm-4 col-md-3 col-lg-2">
           <figure class="figure">
-            <img src="assets/product/4.jpg" width="200px" class="figure-img img-fluid" alt="...">
+            <img src="assets/featured/12.jpeg" width="200px" class="figure-img img-fluid" alt="...">
             <figcaption class="figure-caption text-center">
-              <h5>Product item</h5>
-              <p>USD 9.99</p>
+              <h5>Tas anyaman cream</h5>
+              <p>IDR 60.000</p>
             </figcaption>
           </figure>
         </div>
@@ -357,37 +413,94 @@
   </section>
   <!-- End of Featured Item -->
 
+  <!-- About -->
+  <section id="about-us" class="about-us mb-5" style="background-color: #EAECF4; height: 50vh;">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 d-flex justify-content-center align-items-center" style="height: 50vh;">
+          <div>
+            <img src="assets/icons/co-wworkers.png" width="300px" alt="">
+          </div>
+        </div>
+        <div class="col-6 d-flex justify-content-center align-items-center" style="height: 50vh;">
+          <div>
+            <h1>About <br> Us</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius aperiam dolor accusamus aut eaque. Nihil, deserunt sed. Labore consectetur accusamus facere cumque quasi, doloribus maxime inventore repellat ipsa, provident iusto!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- End of About -->
+
   <!-- Footer -->
   <footer class="border-top p-5">
     <div class="container">
       <div class="row justify-content-between">
         <div class="col-1">
           <a href="">
-            <img src="assets/icons/logo-umkm.png" width="100px" alt="...">
+            <img src="assets/icons/logo.png" width="140px" alt="...">
           </a>
         </div>
-        <div class="col-8 footer-icon-menu text-end ">
-          <a style="text-decoration: none;" href="">
-            <img src="assets/icons/phone.png" width="25px" alt="...">
-          </a>
-          <a style="text-decoration: none;" href="">
-            <img src="assets/icons/envelope.png" width="25px" alt="...">
-          </a>
-          <a style="text-decoration: none;" href="">
-            <img src="assets/icons/link.png" width="25px" alt="...">
-          </a>
+        <div class="col-2 footer-icon-menu text-end bg-white">
+          <div class="icon-bag-dropdown bg-white">
+            <li class="nav-item dropdown bg-white">
+              <a class="nav-link dropdown-toggle bg-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img class="icon-cart" src="assets/icons/shopping-bag-dark.png" width="30px" alt="">
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="collection-page-allanifashion.html"><p>Allani Fashion</p></a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="collection-page-c2r.html"><p>C2R Collection</p></a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="collection-page-kaosdagor.html"><p>Kaos Dagor</p></a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="collection-page-lamandaart.html"><p>Lamanda Art</p></a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="collection-page-marsyacraft .html"><p>Marsya Craft</p></a></li>
+              </ul>
+            </li>
+          </div>
         </div>
       </div>
       <div class="row justify-content-between">
         <div class="col-5  pt-4">
-          <p class="">All Rights Reserved by UMKM Bogor Copyright 2021</p>
+          <p class="">All Rights Reserved by Claude Craft Copyright 2021</p>
         </div>
         <div class="col-5 pt-4">
           <nav class="nav justify-content-end">
-            <a class="nav-link py-0" href="#">About</a>
-            <a class="nav-link py-0" href="#">Developer</a>
-            <a class="nav-link py-0" href="#">Terms</a>
-            <a class="nav-link py-0 pr-0" href="#">Privacy Policy</a>
+            <a class="nav-link py-0" href="#about-us">About</a>
+            <a class="nav-link py-0" href="#">
+              <li class="nav-item dropdown bg-white p-0">
+                <a class="nav-link dropdown-toggle bg-white text-dark p-0" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <p>Developer</p> 
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="https://github.com/irfanzafardev">
+                    <div class="account row mt-3">
+                      <div class="col-3">
+                        <img src="assets/icons/github.png" width="20px">
+                      </div>
+                      <div class="col-6">
+                        <p>Irfan Zafar</p>
+                      </div>
+                    </div>
+                  </a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://github.com/irfanzafardev">
+                    <div class="account row mt-3">
+                      <div class="col-3">
+                        <img src="assets/icons/github.png" width="20px">
+                      </div>
+                      <div class="col-6">
+                        <p>Irfan Zafar</p>
+                      </div>
+                    </div>
+                  </a></li>
+                </ul>
+              </li>
+            </a>
           </nav>
         </div>
       </div>
@@ -398,6 +511,7 @@
   <!-- Optional JavaScript; choose one of the two! -->
 
   <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="./style/script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
   </script>

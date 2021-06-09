@@ -201,23 +201,23 @@ html {
 /* End of Features */
 
 /* Product Description-1 */
-.content-11,.content-12,.content-13, .content-14, .content-15, .content-16 {
+.content-11,.content-12,.content-13, .content-14, .content-15, .content-16, .content-17,.content-18,.content-19, .content-110, .content-111, .content-112 {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.desc-button-11 h6, .desc-button-12 h6, .desc-button-13 h6, .desc-button-14 h6, .desc-button-15 h6, .desc-button-16 h6 {
+.desc-button-11 h6, .desc-button-12 h6, .desc-button-13 h6, .desc-button-14 h6, .desc-button-15 h6, .desc-button-16 h6, .desc-button-17 h6, .desc-button-18 h6, .desc-button-18 h6, .desc-button-19 h6, .desc-button-110 h6, .desc-button-111 h6, .desc-button-112 h6 {
   font-size: 14px;
   margin: 1px 0 0 0;
 }
 
-#click-11, #click-12, #click-13, #click-14, #click-15, #click-16 {
+#click-11, #click-12, #click-13, #click-14, #click-15, #click-16, #click-17, #click-18, #click-19, #click-110, #click-111, #click-112 {
   display: none;
 }
 
-.click-me-11, .click-me-12, .click-me-13, .click-me-14, .click-me-15, .click-me-16 {
+.click-me-11, .click-me-12, .click-me-13, .click-me-14, .click-me-15, .click-me-16, .click-me-17, .click-me-18, .click-me-19, .click-me-110, .click-me-111, .click-me-112 {
   display: block;
   width: 100px;
   height: 20px;
@@ -231,11 +231,11 @@ html {
   transition: .5s;
 }
 
-.click-me-11:hover, .click-me-12:hover, .click-me-13:hover, .click-me-14:hover, .click-me-15:hover, .click-me-16:hover {
+.click-me-11:hover, .click-me-12:hover, .click-me-13:hover, .click-me-14:hover, .click-me-15:hover, .click-me-16:hover, .click-me-17:hover, .click-me-18:hover, .click-me-19:hover, .click-me-110:hover, .click-me-111:hover, .click-me-112:hover {
   background: #3252DF;
 }
 
-.content-11, .content-12, .content-13, .content-14, .content-15, .content-16 {
+.content-11, .content-12, .content-13, .content-14, .content-15, .content-16, .content-17, .content-18, .content-19, .content-110, .content-111, .content-112 {
   opacity: 0;
   visibility: hidden;
   width: 425px;
@@ -246,7 +246,7 @@ html {
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .4);
 }
 
-#click-11:checked ~ .content-11, #click-12:checked ~ .content-12, #click-13:checked ~ .content-13, #click-14:checked ~ .content-14, #click-15:checked ~ .content-15, #click-16:checked ~ .content-16 {
+#click-11:checked ~ .content-11, #click-12:checked ~ .content-12, #click-13:checked ~ .content-13, #click-14:checked ~ .content-14, #click-15:checked ~ .content-15, #click-16:checked ~ .content-16, #click-17:checked ~ .content-17, #click-18:checked ~ .content-18, #click-19:checked ~ .content-19, #click-110:checked ~ .content-110, #click-111:checked ~ .content-111, #click-112:checked ~ .content-112 {
   opacity: 1;
   visibility: visible;
 }
@@ -284,23 +284,23 @@ html {
 /* Product Description-1 */
 
 /* Product Description-2 */
-.content-21,.content-22,.content-23, .content-24, .content-25, .content-26 {
+.content-21,.content-22,.content-23, .content-24, .content-25, .content-26, .content-27, .content-28, .content-29, .content-210 {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.desc-button-21 h6, .desc-button-22 h6, .desc-button-23 h6, .desc-button-24 h6, .desc-button-25 h6, .desc-button-26 h6 {
+.desc-button-21 h6, .desc-button-22 h6, .desc-button-23 h6, .desc-button-24 h6, .desc-button-25 h6, .desc-button-26 h6, .desc-button-27 h6, .desc-button-28 h6, .desc-button-29 h6, .desc-button-210 h6 {
   font-size: 14px;
   margin: 1px 0 0 0;
 }
 
-#click-21, #click-22, #click-23, #click-24, #click-25, #click-26 {
+#click-21, #click-22, #click-23, #click-24, #click-25, #click-26, #click-27, #click-28, #click-29, #click-210 {
   display: none;
 }
 
-.click-me-21, .click-me-22, .click-me-23, .click-me-24, .click-me-25, .click-me-26 {
+.click-me-21, .click-me-22, .click-me-23, .click-me-24, .click-me-25, .click-me-26, .click-me-27, .click-me-28, .click-me-29, .click-me-210 {
   display: block;
   width: 100px;
   height: 20px;
@@ -314,11 +314,11 @@ html {
   transition: .5s;
 }
 
-.click-me-21:hover, .click-me-22:hover, .click-me-23:hover, .click-me-24:hover, .click-me-25:hover, .click-me-26:hover {
+.click-me-21:hover, .click-me-22:hover, .click-me-23:hover, .click-me-24:hover, .click-me-25:hover, .click-me-26:hover, .click-me-27:hover, .click-me-28:hover, .click-me-29:hover, .click-me-210:hover {
   background: #3252DF;
 }
 
-.content-21, .content-22, .content-23, .content-24, .content-25, .content-26 {
+.content-21, .content-22, .content-23, .content-24, .content-25, .content-26, .content-27, .content-28, .content-29, .content-210 {
   opacity: 0;
   visibility: hidden;
   width: 425px;
@@ -329,7 +329,7 @@ html {
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .4);
 }
 
-#click-21:checked ~ .content-21, #click-22:checked ~ .content-22, #click-23:checked ~ .content-23, #click-24:checked ~ .content-24, #click-25:checked ~ .content-25, #click-26:checked ~ .content-26 {
+#click-21:checked ~ .content-21, #click-22:checked ~ .content-22, #click-23:checked ~ .content-23, #click-24:checked ~ .content-24, #click-25:checked ~ .content-25, #click-26:checked ~ .content-26, #click-27:checked ~ .content-27, #click-28:checked ~ .content-28, #click-29:checked ~ .content-29, #click-210:checked ~ .content-210 {
   opacity: 1;
   visibility: visible;
 }
@@ -366,24 +366,24 @@ html {
 }
 /* Product Description */
 
-/* Product Description */
-.content,.content-42,.content-43, .content-44,.content-45 {
+/* Product Description-4 */
+.content, .content-42, .content-43, .content-44,.content-45, .content-46, .content-47, .content-48, .content-49,.content-410 {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.desc-button h6, .desc-button-42 h6, .desc-button-43 h6, .desc-button-44 h6, .desc-button-45 h6 {
+.desc-button h6, .desc-button-42 h6, .desc-button-43 h6, .desc-button-44 h6, .desc-button-45 h6, .desc-button-46 h6, .desc-button-47 h6, .desc-button-410 h6, .desc-button-48 h6, .desc-button-49 h6 {
   font-size: 14px;
   margin: 1px 0 0 0;
 }
 
-#click, #click-42, #click-43, #click-44, #click-45 {
+#click, #click-42, #click-43, #click-44, #click-45, #click-46, #click-47, #click-48, #click-49, #click-410 {
   display: none;
 }
 
-.click-me, .click-me-42, .click-me-43, .click-me-44, .click-me-45 {
+.click-me, .click-me-42, .click-me-43, .click-me-44, .click-me-45, .click-me-46, .click-me-47, .click-me-48, .click-me-49, .click-me-410 {
   display: block;
   width: 100px;
   height: 20px;
@@ -397,11 +397,11 @@ html {
   transition: .5s;
 }
 
-.click-me:hover, .click-me-42:hover, .click-me-43:hover, .click-me-44:hover, .click-me-45:hover {
+.click-me:hover, .click-me-42:hover, .click-me-43:hover, .click-me-44:hover, .click-me-45:hover, .click-me-46:hover, .click-me-47:hover, .click-me-48:hover, .click-me-49:hover, .click-me-410:hover {
   background: #3252DF;
 }
 
-.content, .content-42, .content-43, .content-44, .content-45 {
+.content, .content-42, .content-43, .content-44, .content-45, .content-46, .content-47, .content-48, .content-49, .content-410 {
   opacity: 0;
   visibility: hidden;
   width: 425px;
@@ -412,7 +412,7 @@ html {
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .4);
 }
 
-#click:checked ~ .content, #click-42:checked ~ .content-42, #click-43:checked ~ .content-43, #click-44:checked ~ .content-44, #click-45:checked ~ .content-45 {
+#click:checked ~ .content, #click-42:checked ~ .content-42, #click-43:checked ~ .content-43, #click-44:checked ~ .content-44, #click-45:checked ~ .content-45, #click-46:checked ~ .content-46, #click-47:checked ~ .content-47, #click-48:checked ~ .content-48, #click-49:checked ~ .content-49, #click-410:checked ~ .content-410 {
   opacity: 1;
   visibility: visible;
 }

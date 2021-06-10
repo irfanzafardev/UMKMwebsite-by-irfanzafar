@@ -367,23 +367,23 @@ html {
 /* Product Description */
 
 /* Product Description-4 */
-.content, .content-42, .content-43, .content-44,.content-45, .content-46, .content-47, .content-48, .content-49,.content-410 {
+.content, .content-42, .content-43, .content-44,.content-45, .content-46, .content-47, .content-48, .content-49,.content-410, .content-411, .content-412, .content-413, .content-414 {
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.desc-button h6, .desc-button-42 h6, .desc-button-43 h6, .desc-button-44 h6, .desc-button-45 h6, .desc-button-46 h6, .desc-button-47 h6, .desc-button-410 h6, .desc-button-48 h6, .desc-button-49 h6 {
+.desc-button h6, .desc-button-42 h6, .desc-button-43 h6, .desc-button-44 h6, .desc-button-45 h6, .desc-button-46 h6, .desc-button-47 h6, .desc-button-410 h6, .desc-button-48 h6, .desc-button-49 h6, .desc-button-410 h6, .desc-button-411 h6, .desc-button-412 h6, .desc-button-413 h6, .desc-button-414 h6 {
   font-size: 14px;
   margin: 1px 0 0 0;
 }
 
-#click, #click-42, #click-43, #click-44, #click-45, #click-46, #click-47, #click-48, #click-49, #click-410 {
+#click, #click-42, #click-43, #click-44, #click-45, #click-46, #click-47, #click-48, #click-49, #click-410, #click-411, #click-412, #click-413, #click-414 {
   display: none;
 }
 
-.click-me, .click-me-42, .click-me-43, .click-me-44, .click-me-45, .click-me-46, .click-me-47, .click-me-48, .click-me-49, .click-me-410 {
+.click-me, .click-me-42, .click-me-43, .click-me-44, .click-me-45, .click-me-46, .click-me-47, .click-me-48, .click-me-49, .click-me-410, .click-me-411, .click-me-412, .click-me-413, .click-me-414 {
   display: block;
   width: 100px;
   height: 20px;
@@ -397,11 +397,11 @@ html {
   transition: .5s;
 }
 
-.click-me:hover, .click-me-42:hover, .click-me-43:hover, .click-me-44:hover, .click-me-45:hover, .click-me-46:hover, .click-me-47:hover, .click-me-48:hover, .click-me-49:hover, .click-me-410:hover {
+.click-me:hover, .click-me-42:hover, .click-me-43:hover, .click-me-44:hover, .click-me-45:hover, .click-me-46:hover, .click-me-47:hover, .click-me-48:hover, .click-me-49:hover, .click-me-410:hover, .click-me-411:hover, .click-me-412:hover, .click-me-413:hover, .click-me-414:hover {
   background: #3252DF;
 }
 
-.content, .content-42, .content-43, .content-44, .content-45, .content-46, .content-47, .content-48, .content-49, .content-410 {
+.content, .content-42, .content-43, .content-44, .content-45, .content-46, .content-47, .content-48, .content-49, .content-410, .content-411, .content-412, .content-413, .content-414 {
   opacity: 0;
   visibility: hidden;
   width: 425px;
@@ -412,7 +412,7 @@ html {
   box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .4);
 }
 
-#click:checked ~ .content, #click-42:checked ~ .content-42, #click-43:checked ~ .content-43, #click-44:checked ~ .content-44, #click-45:checked ~ .content-45, #click-46:checked ~ .content-46, #click-47:checked ~ .content-47, #click-48:checked ~ .content-48, #click-49:checked ~ .content-49, #click-410:checked ~ .content-410 {
+#click:checked ~ .content, #click-42:checked ~ .content-42, #click-43:checked ~ .content-43, #click-44:checked ~ .content-44, #click-45:checked ~ .content-45, #click-46:checked ~ .content-46, #click-47:checked ~ .content-47, #click-48:checked ~ .content-48, #click-49:checked ~ .content-49, #click-410:checked ~ .content-410, #click-411:checked ~ .content-411, #click-412:checked ~ .content-412, #click-413:checked ~ .content-413, #click-414:checked ~ .content-414 {
   opacity: 1;
   visibility: visible;
 }
